@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700&display=swap');
+
+:root {
+    --primary: #0099E5;
+
+    --secundary-ligth: #E5E5E5;
+    --secondary-dark: #4A4B4E;
+    
+    --background-ligth: #F5F5F5;
+    --background-dark: #2A2B2E;
+    
+    --title-ligth: #EEEEEE;
+    --title-dark: #333333;
+    --body-ligth: #CCCCCC;
+    --body-dark: #666666;
+    --disabled-ligth: #666666;
+    --disabled-dark: #CCCCCC;
+
+    --primary900: #001F2E;
+    --primary800: #003D5C;
+    --primary700: #005C89;
+    --primary600: #007AB7;
+    --primary400: #33ADEA;
+    --primary300: #66C2EF;
+    --primary200: #99D6F5;
+    --primary100: #CCEBFA;
+
+    --secondary900: #2E2E2E;
+    --secondary800: #5C5C5C;
+    --secondary700: #898989;
+    --secondary600: #B7B7B7;
+    --secondary400: #EAEAEA;
+    --secondary300: #EFEFEF;
+    --secondary200: #F5F5F5;
+    --secondary100: #FAFAFA;
+}
+
+* {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 800;
+    width: 100%;
+}
+
+h2{
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+}
+
+h3 {
+    font-style: normal;
+    font-size: 21px;
+    font-weight: 600;
+    width: 100%;
+}
+
+h4 {
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;   
+}
+
+h5 {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;   
+}
+
+p {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 200;
+}
