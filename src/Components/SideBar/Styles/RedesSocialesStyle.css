@@ -20,9 +20,12 @@
     align-items: center;
     justify-content: center;
 
-    cursor: pointer;
-
     transition: all 300ms ease-out;
+}
+
+#RedesSociales a,
+#RedesSociales a path {
+    cursor: pointer;
 }
 
 #FacebookIcon:hover {

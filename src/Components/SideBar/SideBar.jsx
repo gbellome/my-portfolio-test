@@ -3,7 +3,7 @@ import ImagenPerfil from './Components/ImagenPerfil'
 import BotonNavegacion from './Components/BotonNavegacion'
 import RedesSociales from './Components/RedesSociales'
 import Firma from './Components/Firma'
-import './SideBarStyle.css'
+import './Styles/SideBarStyle.css'
 
 const SideBar = () => {
   return (

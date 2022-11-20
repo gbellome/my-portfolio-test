@@ -1,5 +1,5 @@
 import React from 'react'
-import './ImagenPerfilStyle.css'
+import './../Styles/ImagenPerfilStyle.css'
 
 const ImagenPerfil = () => {
   return (

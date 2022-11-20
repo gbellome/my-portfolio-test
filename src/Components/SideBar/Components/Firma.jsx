@@ -1,5 +1,5 @@
 import React from 'react'
-import './FirmaStyle.css'
+import './../Styles/FirmaStyle.css'
 
 const Firma = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import './BotonNavegacionStyle.css'
+import './../Styles/BotonNavegacionStyle.css'
 
 const BotonNavegacion = ({caption, active}) => {
   return (
