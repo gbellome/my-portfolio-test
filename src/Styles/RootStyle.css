@@ -5,10 +5,10 @@
 
     --secundary-ligth: #E5E5E5;
     --secondary-dark: #4A4B4E;
-    
+
     --background-ligth: #F5F5F5;
     --background-dark: #2A2B2E;
-    
+
     --title-ligth: #EEEEEE;
     --title-dark: #333333;
     --body-ligth: #CCCCCC;
@@ -33,21 +33,38 @@
     --secondary300: #EFEFEF;
     --secondary200: #F5F5F5;
     --secondary100: #FAFAFA;
+
+    --facebook: #4267B2;
+    --instagram: #C13584;
+    --linkedin: #0077B5;
+    --twitter: #1DA1F2;
 }
 
 * {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    cursor: default;
 }
 
-h1{
+#root {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+}
+
+h1 {
     font-style: normal;
     font-size: 28px;
     font-weight: 800;
     width: 100%;
 }
 
-h2{
+h2 {
     font-style: normal;
     font-size: 24px;
     font-weight: 700;
@@ -65,14 +82,14 @@ h4 {
     font-style: normal;
     font-size: 18px;
     font-weight: 500;
-    width: 100%;   
+    width: 100%;
 }
 
 h5 {
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
-    width: 100%;   
+    width: 100%;
 }
 
 p {
