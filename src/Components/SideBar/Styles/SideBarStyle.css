@@ -19,3 +19,14 @@ nav {
 nav ul {
     height: 100%;
 }
+
+#FooterSideBar {
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    cursor: default;
+}

@@ -15,8 +15,10 @@ const SideBar = () => {
         <BotonNavegacion caption='porfolio' />
         <BotonNavegacion caption='contacto' />
       </ul>
-      <RedesSociales />
-      <Firma />
+      <div id="FooterSideBar">
+        <RedesSociales />
+        <Firma />
+      </div>
     </nav>
   )
 }
