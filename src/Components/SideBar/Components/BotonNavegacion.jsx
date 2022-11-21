@@ -1,10 +1,10 @@
 import React from 'react'
 import './../Styles/BotonNavegacionStyle.css'
 
-const BotonNavegacion = ({caption, active}) => {
+const BotonNavegacion = ({ active, caption }) => {
   return (
     <li className={active ? 'active' : ''}>
-        {caption}
+      {caption}
     </li>
   )
 }
