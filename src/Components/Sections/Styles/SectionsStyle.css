@@ -1,0 +1,14 @@
+section {
+    width: calc(100vw - 210px);
+    height: 100%;
+
+    background: var(--background-ligth);
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

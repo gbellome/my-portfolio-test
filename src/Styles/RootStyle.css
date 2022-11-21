@@ -55,6 +55,8 @@
     height: 100vh;
 
     position: relative;
+
+    background: linear-gradient(180deg, var(--secundary-ligth) 0%, var(--background-ligth) 100%);
 }
 
 h1 {
