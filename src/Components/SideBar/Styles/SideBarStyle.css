@@ -20,6 +20,18 @@ nav ul {
     height: 100%;
 }
 
+nav ul a:visited,
+nav ul a:active,
+nav ul a:link {
+    color: var(--body-dark);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: var(--title-dark);
+}
+
 #FooterSideBar {
     width: 200px;
 
