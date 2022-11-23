@@ -1,0 +1,46 @@
+#Resumen {
+    display: flex;
+    align-items: flex-start;
+
+    width: 100%;   
+}
+
+#ImagenPortada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#ImagenPortada img {
+    width: 600px;
+    height: 600px;
+}
+
+#Descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 56px 28px;
+
+    gap: 28px;
+}
+
+#Funciones {
+    width: 100%;
+
+    padding: 28px 0;
+}
+
+#ListadoFunciones {
+    display: flex;
+    flex-direction: column;
+
+    padding: 28px;
+}
+
+#ListadoFunciones .LineaFunciones {
+    display: flex;
+    gap: 28px;
+}

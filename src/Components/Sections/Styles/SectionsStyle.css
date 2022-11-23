@@ -12,3 +12,7 @@ section {
     flex-direction: column;
     align-items: center;
 }
+
+.titulo {
+    width: 100%;
+}

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Formacion = () => {
   return (
-    <h1>Formacion</h1>
+    <div className="titulo">
+      <h2>Formacion</h2>
+    </div>
   )
 }
 
