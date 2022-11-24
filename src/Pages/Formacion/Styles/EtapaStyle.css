@@ -1,0 +1,68 @@
+.Etapa {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    height: 150px;
+}
+
+.Etapa .Tiempo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 14px;
+
+    padding: 28px 56px 0px;
+    width: 150px;
+}
+
+.Etapa .Tiempo h5 {
+    text-align: center;
+}
+
+.Etapa .Separador {
+    width: 40px;
+
+    position: relative;
+}
+
+.Etapa .Separador::after {
+    content: '';
+
+    display: inline-block;
+
+    position: absolute;
+    top: 28px;
+
+    width: 14px;
+    height: 14px;
+
+    background: var(--background-ligth);
+
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+}
+
+.Etapa .Separador::before {
+    content: '';
+
+    display: inline-block;
+
+    position: absolute;
+    left: 8px;
+
+    width: 2px;
+    height: 150px;
+
+    background: var(--secundary-ligth);
+}
+
+.Etapa .Descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+
+    padding: 28px 56px 14px;
+}

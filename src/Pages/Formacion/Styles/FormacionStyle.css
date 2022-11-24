@@ -1,0 +1,14 @@
+.LineaFormacion {
+    display: flex;
+    align-items: flex-start;
+
+    width: 100%;
+}
+
+.LineaFormacion .LineaDeTiempoFormacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 60%;
+}

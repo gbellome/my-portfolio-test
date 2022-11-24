@@ -1,6 +1,5 @@
 section {
     width: calc(100vw - 210px);
-    height: 100%;
 
     background: var(--background-ligth);
 
