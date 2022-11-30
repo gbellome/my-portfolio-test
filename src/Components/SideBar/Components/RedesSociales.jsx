@@ -5,21 +5,33 @@ import './../Styles/RedesSocialesStyle.css'
 
 const RedesSociales = () => {
     return (
-    <div id='RedesSociales'>
-        <a href="https://www.facebook.com/Gaaby12.B.J/" id="FacebookIcon">
-            <FaFacebookF />
-        </a>
-        <a href="https://www.instagram.com/gabibellome/" id="InstagramIcon">
-            <FaInstagram />
-        </a>
-        <a href="https://www.linkedin.com/in/gabriel-bellome-bb6721112/" id="LinkedInIcon">
-            <FaLinkedinIn />
-        </a>
-        <a href="https://www.twitter.com/GabrielBellome/" id="TwitterIcon">
-            <FaTwitter />
-        </a>
-    </div>
-  )
+        <div id='RedesSociales'>
+            <a
+                href="https://www.facebook.com/Gaaby12.B.J/"
+                id="FacebookIcon"
+                target="_blank">
+                <FaFacebookF />
+            </a>
+            <a
+                href="https://www.instagram.com/gabibellome/"
+                id="InstagramIcon"
+                target="_blank">
+                <FaInstagram />
+            </a>
+            <a
+                href="https://www.linkedin.com/in/gabriel-bellome-bb6721112/"
+                id="LinkedInIcon"
+                target="_blank">
+                <FaLinkedinIn />
+            </a>
+            <a
+                href="https://www.twitter.com/GabrielBellome/"
+                id="TwitterIcon"
+                target="_blank">
+                <FaTwitter />
+            </a>
+        </div>
+    )
 }
 
 export default RedesSociales

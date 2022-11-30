@@ -24,7 +24,8 @@
 }
 
 #RedesSociales a,
-#RedesSociales a path {
+#RedesSociales a path,
+#RedesSociales a svg {
     cursor: pointer;
 }
 

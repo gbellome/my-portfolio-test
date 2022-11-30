@@ -1,21 +1,26 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom'
 import ImagenPerfil from './Components/ImagenPerfil'
 import BotonNavegacion from './Components/BotonNavegacion'
 import RedesSociales from './Components/RedesSociales'
 import Firma from './Components/Firma'
 import './Styles/SideBarStyle.css'
 
-
-
 const SideBar = () => {
+
+  const path = useLocation()
+  const esActiva = (rutaRequerida) => {
+    return rutaRequerida === path.pathname ? true: false
+  }
+
   return (
     <nav>
       <ImagenPerfil />
       <ul>
-        <BotonNavegacion route='' caption='inicio' active={true} />
-        <BotonNavegacion route='Formacion' caption='formacion' />
-        <BotonNavegacion route='Porfolio' caption='porfolio' />
-        <BotonNavegacion route='Contacto' caption='contacto' />
+        <BotonNavegacion route='' caption='inicio' active={esActiva('/')} />
+        <BotonNavegacion route='Formacion' caption='formacion' active={esActiva('/Formacion')} />
+        <BotonNavegacion route='Porfolio' caption='porfolio' active={esActiva('/Porfolio')} />
+        <BotonNavegacion route='Contacto' caption='contacto' active={esActiva('/Contacto')} />
       </ul>
       <div id="FooterSideBar">
         <RedesSociales />
