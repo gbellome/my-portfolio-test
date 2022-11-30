@@ -2,6 +2,7 @@ import React from 'react'
 import FotoPerfil from './../../Assets/img/Perfil BN.jpg'
 import Button from './../../Components/General/Components/Button'
 import Funciones from './Components/Funciones'
+import PerfilesDinamicos from './Components/PerfilesDinamicos'
 import { FaRobot, FaPoll, FaPencilAlt, FaLaptopCode } from "react-icons/fa"
 
 import './Styles/InicioStyle.css'
@@ -14,7 +15,7 @@ const Inicio = () => {
           <img src={FotoPerfil} alt="Imagen Perfil" />
         </div>
         <div id="Descripcion">
-          <h5>Desarrollador Web</h5>
+          <PerfilesDinamicos />
           <h1>Gabriel Bellome</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam commodi non recusandae nostrum possimus ullam, maxime nihil inventore numquam ab esse modi, deleniti hic magnam doloribus asperiores aperiam corporis nulla ducimus. Aspernatur repellat error quod ipsam doloribus suscipit odio? Voluptas ullam quasi molestiae architecto totam odit saepe fuga, placeat cum?</p>
           <Button caption='Descargar CV' outline={true} />
