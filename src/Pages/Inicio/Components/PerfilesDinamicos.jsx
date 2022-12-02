@@ -10,7 +10,7 @@ const PerfilesDinamicos = () => {
                     'Desarrollador WEB',
                     'Diseñador UX/UI', 
                     'Desarrollador RPA',
-                    'Licenciando en Automatización y Rótica'
+                    'Licenciando en Automatización y Róbotica'
                 ]}
                 typeSpeed={40}
                 loop={true}

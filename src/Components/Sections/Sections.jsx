@@ -8,7 +8,7 @@ import './Styles/SectionsStyle.css'
 
 const Sections = () => {
     return (
-        <section>
+        <section className='container'>
             <Routes>
                 <Route index path='' element={<Inicio/>} />
                 <Route path='Formacion' element={<Formacion/>} />

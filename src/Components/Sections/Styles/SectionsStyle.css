@@ -1,5 +1,5 @@
 section {
-    width: calc(100vw - 210px);
+    max-width: calc(100vw - 210px) !important;
 
     background: var(--background-ligth);
 
@@ -10,4 +10,10 @@ section {
 
 .titulo {
     width: 100%;
+}
+
+@media (max-width:767px) {
+    section {
+        max-width: none !important;
+    }
 }

@@ -2,16 +2,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-
-    padding: 12px 14px;
-    gap: 28px;
-
-    width: 600px;
 }
 
 .Funcion svg{
-    width: 82px;
-    height: 82px;
+    min-width: 56px !important;
+    min-height: 56px !important;
 }
 
 .Funcion .DescripcionFuncion {
@@ -19,4 +14,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+    padding: 28px;
 }
