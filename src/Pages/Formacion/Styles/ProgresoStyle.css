@@ -1,27 +1,17 @@
 .Progreso {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 7px;
-
     padding: 14px 28px;
 }
 
-.DetalleProgreso {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 171px;
-    
-    padding: 0px 14px;
+.DetalleProgreso h5,
+.DetalleProgreso p {
+    margin-bottom: 7px;
+}
 
-    width: 100%;
+.DetalleProgreso p{
+    text-align: right;
 }
 
 .BarraProgreso {
-    width: 100%;
-
     position: relative;
 }
 
@@ -39,7 +29,7 @@
     border-radius: 14px;
 }
 
-.BarraProgreso::before {
+.NivelProgreso {
     content: '';
 
     display: block;
@@ -50,8 +40,19 @@
 
     background: var(--primary);
 
-    width: 50%;
     height: 6px;
 
     border-radius: 14px;
+
+    animation: 1s linear Progreso;
+}
+
+@keyframes Progreso {
+    from {
+        background: var(--secondary);
+        width: 0%;
+    }
+    to {
+        background: var(--primary);
+    }
 }

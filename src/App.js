@@ -1,8 +1,10 @@
 import React from 'react'
+import './Styles/RootStyle.css'
+
+import { BrowserRouter as Router } from 'react-router-dom'
 import SideBar from './Components/SideBar/SideBar'
 import Sections from './Components/Sections/Sections'
-import { BrowserRouter as Router } from 'react-router-dom'
-import './Styles/RootStyle.css'
+
 
 const App = () => {
   return (

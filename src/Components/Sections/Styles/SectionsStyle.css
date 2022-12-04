@@ -8,10 +8,6 @@ section {
     right: 0;
 }
 
-.titulo {
-    width: 100%;
-}
-
 @media (max-width:767px) {
     section {
         max-width: none !important;
