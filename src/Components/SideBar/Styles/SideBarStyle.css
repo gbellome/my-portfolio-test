@@ -44,8 +44,33 @@ nav ul a:hover {
 
 @media (max-width:767px) {
     nav {
-        display: none;
-
         width: 100%;
+        height: 50px;
+        z-index: 100;
+
+        position: fixed;
+
+        bottom: 0;
+        top: inherit;
+    }
+
+    nav #ImagenPerfil,
+    nav #FooterSideBar {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+    }
+    
+    nav ul a:hover::after,
+    nav ul a.active::after {
+        width: 100%;
+        height: 2px;
+
+        background: var(--primary);
+
+        position: absolute;
+        right: inherit;
+        top: 0;
     }
 }
