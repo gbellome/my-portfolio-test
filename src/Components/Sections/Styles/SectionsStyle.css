@@ -1,5 +1,6 @@
 section {
     max-width: calc(100vw - 210px) !important;
+    min-height: 100vh;
 
     background: var(--background-ligth);
 

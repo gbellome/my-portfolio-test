@@ -1,0 +1,42 @@
+.Maps {
+    padding: 28px 56px;
+
+}
+.Maps iframe {
+    border-radius: 14px;
+    
+    width: 100%;
+    height: 200px;
+    
+    background: var(--secondary-ligth);
+}
+.Cards {
+    padding: 28px 56px;
+}
+.CardContainer {
+    padding: 14px;
+}
+
+.Card {
+    border: 2px solid var(--secondary-ligth);
+    border-radius: 14px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+
+    padding: 14px;
+}
+
+.Card>* {
+    text-align: center;
+}
+
+.Card svg,
+.Card path {
+    width: 56px;
+    height: 56px;
+
+    color: var(--secondary600);
+}

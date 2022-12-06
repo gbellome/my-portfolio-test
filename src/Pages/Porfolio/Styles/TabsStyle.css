@@ -1,0 +1,16 @@
+.TabsContainer {
+  display: flex;
+  justify-content: right;
+  align-items: stretch;
+}
+
+.TabItem {
+    padding: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  /* border-bottom: 2px solid var(--primary) */
+}
+.TabItem:hover,
+.TabItem.active {
+    border-bottom: 2px solid var(--primary);
+}

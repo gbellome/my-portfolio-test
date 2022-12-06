@@ -7,7 +7,7 @@ nav ul a {
     width: 100%;
     height: 42px;
 
-    border: 1px solid var(--secundary-ligth);
+    border: 1px solid var(--secondary-ligth);
     border-width: 1px 0px;
 
     position: relative;
@@ -18,7 +18,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-    background: var(--secundary-ligth);
+    background: var(--secondary-ligth);
 }
 
 nav ul a:hover::after,
