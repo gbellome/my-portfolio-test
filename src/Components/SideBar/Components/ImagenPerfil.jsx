@@ -4,10 +4,10 @@ import './../Styles/ImagenPerfilStyle.css'
 
 const ImagenPerfil = () => {
   return (
-    <div id='ImagenPerfil'>
+    <div id="ImagenPerfil">
       <img src={FotoPerfil} alt="Imagen Perfil" />
       <div>
-        <h1>Gabriel Bellome</h1>
+        <h4>GABRIEL BELLOME</h4>
       </div>
     </div>
   )

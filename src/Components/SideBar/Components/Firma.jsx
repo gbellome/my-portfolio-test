@@ -4,7 +4,9 @@ import './../Styles/FirmaStyle.css'
 const Firma = () => {
   return (
     <div id="Firma">
-      <p>By Gabriel Bellome</p>
+      <p style={{ textAlign: 'center' }}>
+        Sitio diseñado 100% por Gabriel Bellome
+      </p>
     </div>
   )
 }

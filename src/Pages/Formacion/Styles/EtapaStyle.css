@@ -1,49 +1,48 @@
 .Etapa .Tiempo h5,
 .Etapa .Tiempo p {
-    text-align: center;
-    padding-top: 14px;
-
+  text-align: center;
+  padding-top: 14px;
 }
 
 .Etapa .Separador {
-    position: relative;
+  position: relative;
 }
 
 .Etapa .Separador::after {
-    content: '';
+  content: '';
 
-    display: inline-block;
+  display: inline-block;
 
-    position: absolute;
-    top: 28px;
+  position: absolute;
+  top: 28px;
 
-    width: 14px;
-    height: 14px;
+  width: 14px;
+  height: 14px;
 
-    background: var(--background-ligth);
+  background: var(--background-ligth);
 
-    border: 2px solid var(--primary);
-    border-radius: 50%;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
 }
 
 .Etapa .Separador::before {
-    content: '';
+  content: '';
 
-    display: inline-block;
+  display: inline-block;
 
-    position: absolute;
-    left: 8px;
+  position: absolute;
+  left: 8px;
 
-    width: 2px;
-    height: 100%;
+  width: 2px;
+  height: 100%;
 
-    background: var(--secundary-ligth);
+  background: var(--secondary-ligth);
 }
 
 .Etapa .Descripcion {
-    margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 
-.Etapa .Descripcion>* {
-    padding: 14px 28px 0;
+.Etapa .Descripcion > * {
+  padding: 14px 28px 0;
 }
