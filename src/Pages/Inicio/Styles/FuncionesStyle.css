@@ -1,19 +1,22 @@
 .Funcion {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
-.Funcion svg{
-    min-width: 56px !important;
-    min-height: 56px !important;
+.Funcion svg {
+  min-width: 56px !important;
+  min-height: 56px !important;
 }
 
 .Funcion .DescripcionFuncion {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 
-    padding: 28px;
+  padding: 28px;
 }

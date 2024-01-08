@@ -2,8 +2,68 @@ import React from 'react'
 import './Styles/FormacionStyle.css'
 import Etapa from './Components/Etapa'
 import Progreso from './Components/Progreso'
+import {
+  FaJs,
+  FaPython,
+  FaHtml5,
+  FaCss3,
+  FaBootstrap,
+  FaFigma,
+  FaGithub,
+  FaGalacticRepublic,
+  FaNodeJs,
+  FaPhp,
+  FaReact,
+  FaSass,
+} from 'react-icons/fa'
 
 const Formacion = () => {
+  const Herramientas = [
+    {
+      icon: <FaHtml5 />,
+      title: 'HTML',
+    },
+    {
+      icon: <FaCss3 />,
+      title: 'CSS',
+    },
+    {
+      icon: <FaBootstrap />,
+      title: 'Bootstrap',
+    },
+    {
+      icon: <FaFigma />,
+      title: 'Figma',
+    },
+    {
+      icon: <FaGithub />,
+      title: 'Github',
+    },
+    {
+      icon: <FaPython />,
+      title: 'Python',
+    },
+    {
+      icon: <FaNodeJs />,
+      title: 'Node JS',
+    },
+    {
+      icon: <FaPhp />,
+      title: 'PHP',
+    },
+    {
+      icon: <FaReact />,
+      title: 'React',
+    },
+    {
+      icon: <FaSass />,
+      title: 'Sass',
+    },
+    {
+      icon: <FaJs />,
+      title: 'JavaScripts',
+    },
+  ]
   const Estudios = [
     {
       year: '2023',
@@ -34,7 +94,6 @@ const Formacion = () => {
         '[Completada] Carrera de pregrado orientada a la teoria y práctica de la configuración, diseño, implementación y manejo de robots en la industria.',
     },
   ]
-
   const Experiencias = [
     {
       year: '2020-ACTUALIDAD',
@@ -121,6 +180,35 @@ const Formacion = () => {
           <Progreso tools="Data Science" progress={0.69} />
           <Progreso tools="Data Base Administration" progress={0.53} />
           <Progreso tools="Artificial Intelligence" progress={0.47} />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-12">
+          <div className="row">
+            <h4>Herramientas</h4>
+          </div>
+          <div className="row" style={{ margin: '0 3rem 2rem' }}>
+            <div class="container" style={{ overflow: 'hidden' }}>
+              <div className="slider">
+                <div className="logos">
+                  {Herramientas.map(({ icon, title }) => (
+                    <div className="fab">
+                      <div>{icon}</div>
+                      <div>{title}</div>
+                    </div>
+                  ))}
+                </div>
+                <div className="logos">
+                  {Herramientas.map(({ icon, title }) => (
+                    <div className="fab">
+                      <div>{icon}</div>
+                      <div>{title}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

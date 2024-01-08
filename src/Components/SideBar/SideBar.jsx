@@ -7,20 +7,31 @@ import Firma from './Components/Firma'
 import './Styles/SideBarStyle.css'
 
 const SideBar = () => {
-
   const path = useLocation()
   const esActiva = (rutaRequerida) => {
-    return rutaRequerida === path.pathname ? true: false
+    return rutaRequerida === path.pathname ? true : false
   }
 
   return (
     <nav>
       <ImagenPerfil />
       <ul>
-        <BotonNavegacion route='' caption='inicio' active={esActiva('/')} />
-        <BotonNavegacion route='Formacion' caption='formacion' active={esActiva('/Formacion')} />
-        <BotonNavegacion route='Porfolio' caption='porfolio' active={esActiva('/Porfolio')} />
-        <BotonNavegacion route='Contacto' caption='contacto' active={esActiva('/Contacto')} />
+        <BotonNavegacion route="" caption="Inicio" active={esActiva('/')} />
+        <BotonNavegacion
+          route="Formacion"
+          caption="Formacion"
+          active={esActiva('/Formacion')}
+        />
+        <BotonNavegacion
+          route="Porfolio"
+          caption="Porfolio"
+          active={esActiva('/Porfolio')}
+        />
+        <BotonNavegacion
+          route="Contacto"
+          caption="Contacto"
+          active={esActiva('/Contacto')}
+        />
       </ul>
       <div id="FooterSideBar">
         <RedesSociales />

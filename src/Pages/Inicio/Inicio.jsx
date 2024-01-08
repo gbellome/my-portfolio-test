@@ -15,6 +15,33 @@ const DescripcionPerfil = [
   `Espero tener la oportunidad de discutir en detalle cómo mi experiencia y habilidades pueden aportar significativamente a su organización.`,
 ]
 
+const DescripcionFunciones = [
+  {
+    title: 'RPA',
+    description:
+      'Desarrollador de robotización de procesos con 4 años de experiencia en el rubro, habiendo utilizado tecnologías de vanguardia y con lógica aplicada al negocio.',
+    icon: <FaRobot />,
+  },
+  {
+    title: 'Team Leader & Business Inteligent',
+    description:
+      'Líder de equipo actuando bajo métricas obtenidas y analizadas desde diferentes criterios bajo las normas de metodologías ágiles como SCRUM o KANBAN.',
+    icon: <FaPoll />,
+  },
+  {
+    title: 'Web App',
+    description:
+      'Desarrollador full-stack de plataformas Web, sitios, aplicaciones de escritorios, utilizando diferentes herramientas disponibles y conociendo aún más, con 8 años de experiencia.',
+    icon: <FaLaptopCode />,
+  },
+  {
+    title: 'Web Design',
+    description:
+      'Aficionado al diseño de interfaces y experiencias de usuario. Buscador diario de ideas innovadoras y creativas para la mejora continua de los sitios administrados.',
+    icon: <FaPencilAlt />,
+  },
+]
+
 const Inicio = () => {
   return (
     <>
@@ -33,7 +60,7 @@ const Inicio = () => {
             {DescripcionPerfil.map((parrafo) => (
               <p
                 style={{
-                  margin: '1rem',
+                  marginBottom: '1rem',
                   textIndent: '1rem',
                   textAlign: 'justify',
                 }}
@@ -52,30 +79,33 @@ const Inicio = () => {
           <h4>¿Qué hago?</h4>
         </div>
         <div id="ListadoFunciones" className="row">
-          <div className="LineaFunciones row">
+          {DescripcionFunciones.map(({ title, description, icon }) => (
+            <Funciones title={title} description={description} icon={icon} />
+          ))}
+          {/* <div className="LineaFunciones row">
             <Funciones
-              title="RPA"
-              description="Desarrollador de robotización de procesos con 4 años de experiencia en el rubro, habiendo utilizado tecnologías de vanguardia y con lógica aplicada al negocio."
+              title=""
+              description=""
               icon={<FaRobot />}
             />
             <Funciones
-              title="Team Leader & Business Inteligent"
-              description="Líder de equipo actuando bajo métricas obtenidas y analizadas desde diferentes criterios bajo las normas de metodologías ágiles como SCRUM o KANBAN."
+              title=""
+              description=""
               icon={<FaPoll />}
             />
           </div>
           <div className="LineaFunciones row">
             <Funciones
-              title="Web App"
-              description="Desarrollador full-stack de plataformas Web, sitios, aplicaciones de escritorios, utilizando diferentes herramientas disponibles y conociendo aún más, con 8 años de experiencia."
+              title=""
+              description=""
               icon={<FaLaptopCode />}
             />
             <Funciones
-              title="Web Design"
-              description="Aficionado al diseño de interfaces y experiencias de usuario. Buscador diario de ideas innovadoras y creativas para la mejora continua de los sitios administrados."
+              title=""
+              description=""
               icon={<FaPencilAlt />}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </>
