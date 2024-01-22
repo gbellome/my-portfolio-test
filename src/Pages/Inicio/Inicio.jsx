@@ -1,5 +1,6 @@
 import React from 'react'
 import FotoPerfil from './../../Assets/img/Perfil BN.jpg'
+import CV from './../../Assets/file/Bellome Gabriel CV.pdf'
 import Button from './../../Components/General/Components/Button'
 import Funciones from './Components/Funciones'
 import PerfilesDinamicos from './Components/PerfilesDinamicos'
@@ -70,7 +71,14 @@ const Inicio = () => {
             ))}
           </div>
           <div className="row">
-            <Button caption="Descargar CV" outline={true} />
+            <a
+              href={CV}
+              download="Bellome Gabriel CV"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button caption="Descargar CV" outline={true} />
+            </a>
           </div>
         </div>
       </div>
@@ -82,30 +90,6 @@ const Inicio = () => {
           {DescripcionFunciones.map(({ title, description, icon }) => (
             <Funciones title={title} description={description} icon={icon} />
           ))}
-          {/* <div className="LineaFunciones row">
-            <Funciones
-              title=""
-              description=""
-              icon={<FaRobot />}
-            />
-            <Funciones
-              title=""
-              description=""
-              icon={<FaPoll />}
-            />
-          </div>
-          <div className="LineaFunciones row">
-            <Funciones
-              title=""
-              description=""
-              icon={<FaLaptopCode />}
-            />
-            <Funciones
-              title=""
-              description=""
-              icon={<FaPencilAlt />}
-            />
-          </div> */}
         </div>
       </div>
     </>

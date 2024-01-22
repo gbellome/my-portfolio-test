@@ -10,7 +10,6 @@ import {
   FaBootstrap,
   FaFigma,
   FaGithub,
-  FaGalacticRepublic,
   FaNodeJs,
   FaPhp,
   FaReact,
