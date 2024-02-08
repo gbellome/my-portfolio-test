@@ -7,8 +7,16 @@ const Contacto = () => {
   return (
     <>
       <div className="row">
-        <div className="col-12"><div className="row h2"><h2>Contacto</h2></div></div>
-        <div className="col-12"><div className="row h3"><h3>Contesto a la brevedad</h3></div></div>
+        <div className="col-12">
+          <div className="row h2">
+            <h2>Contacto</h2>
+          </div>
+        </div>
+        <div className="col-12">
+          <div className="row h3">
+            <h3>Contesto a la brevedad</h3>
+          </div>
+        </div>
       </div>
       <div className="row Maps">
         <div className="col-12">
@@ -23,7 +31,6 @@ const Contacto = () => {
           check={'Freelance'}
         />
       </div>
-
     </>
   )
 }

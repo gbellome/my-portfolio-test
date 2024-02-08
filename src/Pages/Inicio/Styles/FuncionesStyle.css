@@ -8,8 +8,8 @@
 }
 
 .Funcion svg {
-  min-width: 56px !important;
-  min-height: 56px !important;
+  min-width: 4rem !important;
+  min-height: 4rem !important;
 }
 
 .Funcion .DescripcionFuncion {
@@ -18,5 +18,14 @@
   justify-content: center;
   align-items: flex-start;
 
-  padding: 28px;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 765px) {
+  .Funcion {
+    padding: 0 1rem;
+  }
+  .Funcion .DescripcionFuncion {
+    padding: 1rem;
+  }
 }

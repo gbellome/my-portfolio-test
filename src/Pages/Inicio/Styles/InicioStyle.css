@@ -25,5 +25,14 @@
 }
 
 #Descripcion > * {
-  padding: 28px;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 765px) {
+  #Descripcion > * {
+    padding: 1rem;
+  }
+  .hidden-if-mobile {
+    display: none;
+  }
 }

@@ -1,68 +1,9 @@
 import React from 'react'
-import './Styles/FormacionStyle.css'
 import Etapa from './Components/Etapa'
 import Progreso from './Components/Progreso'
-import {
-  FaJs,
-  FaPython,
-  FaHtml5,
-  FaCss3,
-  FaBootstrap,
-  FaFigma,
-  FaGithub,
-  FaNodeJs,
-  FaPhp,
-  FaReact,
-  FaSass,
-} from 'react-icons/fa'
+import Herramientas from './Components/Herramientas'
 
 const Formacion = () => {
-  const Herramientas = [
-    {
-      icon: <FaHtml5 />,
-      title: 'HTML',
-    },
-    {
-      icon: <FaCss3 />,
-      title: 'CSS',
-    },
-    {
-      icon: <FaBootstrap />,
-      title: 'Bootstrap',
-    },
-    {
-      icon: <FaFigma />,
-      title: 'Figma',
-    },
-    {
-      icon: <FaGithub />,
-      title: 'Github',
-    },
-    {
-      icon: <FaPython />,
-      title: 'Python',
-    },
-    {
-      icon: <FaNodeJs />,
-      title: 'Node JS',
-    },
-    {
-      icon: <FaPhp />,
-      title: 'PHP',
-    },
-    {
-      icon: <FaReact />,
-      title: 'React',
-    },
-    {
-      icon: <FaSass />,
-      title: 'Sass',
-    },
-    {
-      icon: <FaJs />,
-      title: 'JavaScripts',
-    },
-  ]
   const Estudios = [
     {
       year: '2023',
@@ -136,12 +77,13 @@ const Formacion = () => {
           <div className="row">
             <h4>Estudios</h4>
           </div>
-          {Estudios.map(({ year, description, place, title }) => (
+          {Estudios.map(({ year, description, place, title }, index) => (
             <Etapa
               year={year}
               place={place}
               title={title}
               description={description}
+              index={index}
             />
           ))}
         </div>
@@ -161,12 +103,13 @@ const Formacion = () => {
           <div className="row">
             <h4>Experiencia</h4>
           </div>
-          {Experiencias.map(({ year, title, place, description }) => (
+          {Experiencias.map(({ year, title, place, description }, index) => (
             <Etapa
               year={year}
               place={place}
               title={title}
               description={description}
+              index={index}
             />
           ))}
         </div>
@@ -186,28 +129,7 @@ const Formacion = () => {
           <div className="row">
             <h4>Herramientas</h4>
           </div>
-          <div className="row" style={{ margin: '0 3rem 2rem' }}>
-            <div class="container" style={{ overflow: 'hidden' }}>
-              <div className="slider">
-                <div className="logos">
-                  {Herramientas.map(({ icon, title }) => (
-                    <div className="fab">
-                      <div>{icon}</div>
-                      <div>{title}</div>
-                    </div>
-                  ))}
-                </div>
-                <div className="logos">
-                  {Herramientas.map(({ icon, title }) => (
-                    <div className="fab">
-                      <div>{icon}</div>
-                      <div>{title}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
+          <Herramientas />
         </div>
       </div>
     </>

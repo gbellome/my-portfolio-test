@@ -7,16 +7,16 @@ import Contacto from '../../Pages/Contacto/Contacto'
 import './Styles/SectionsStyle.css'
 
 const Sections = () => {
-    return (
-        <section className='container'>
-            <Routes>
-                <Route index path='' element={<Inicio/>} />
-                <Route path='Formacion' element={<Formacion/>} />
-                <Route path='Porfolio' element={<Porfolio/>} />
-                <Route path='Contacto' element={<Contacto/>} />
-            </Routes>
-        </section>
-    )
+  return (
+    <section className="container">
+      <Routes>
+        <Route index path="" element={<Inicio />} />
+        <Route path="Formacion" element={<Formacion />} />
+        <Route path="Porfolio" element={<Porfolio />} />
+        <Route path="Contacto" element={<Contacto />} />
+      </Routes>
+    </section>
+  )
 }
 
 export default Sections

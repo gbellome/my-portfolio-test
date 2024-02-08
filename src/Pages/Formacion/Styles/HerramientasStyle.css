@@ -1,0 +1,51 @@
+.herramientas-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.herramientas {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: var(--disabled-dark);
+
+  padding: 0 4rem;
+  margin: 2rem 0;
+}
+
+.herramientas-slider {
+  display: inline-block;
+
+  animation: 30s slide infinite linear;
+}
+
+.herramientas svg {
+  min-width: 56px !important;
+  min-height: 56px !important;
+}
+
+.herramientas svg:hover {
+  color: var(--primary);
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .herramientas {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .herramientas {
+    padding: 0 2rem;
+  }
+}
