@@ -75,10 +75,8 @@ const ListarHerramientas = () => {
 const Herramientas = () => {
   return (
     <div className="herramientas-container">
-      <div className="herramientas-slider">
-        <ListarHerramientas />
-        <ListarHerramientas />
-      </div>
+      <ListarHerramientas />
+      <ListarHerramientas />
     </div>
   )
 }

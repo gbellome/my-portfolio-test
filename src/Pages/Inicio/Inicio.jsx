@@ -101,7 +101,7 @@ const Inicio = () => {
       </div>
       <div id="Funciones" className="row">
         <div className="row">
-          <h4>¿Qué hago?</h4>
+          <h1 className="h4">¿Qué hago?</h1>
         </div>
         <div id="ListadoFunciones" className="row">
           {DescripcionFunciones.map(({ title, description, icon }, index) => (

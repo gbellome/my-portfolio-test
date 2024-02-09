@@ -1,47 +1,47 @@
 button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    padding: 14px 28px;
+  padding: 14px 28px;
 
-    background: var(--primary);
-    color: var(--background-ligth);
+  background: var(--primary500);
+  color: var(--background-ligth);
 
-    border-radius: 7px;
-    border: 1px solid var(--primary);
+  border-radius: 7px;
+  border: 1px solid var(--primary500);
 
-    cursor: pointer;
+  cursor: pointer;
 
-    transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
 }
 
 button.outline {
-    background: var(--background-ligth);
-    color: var(--primary);
+  background: var(--background-ligth);
+  color: var(--primary500);
 
-    border: 1px solid var(--primary);
+  border: 1px solid var(--primary500);
 }
 
 button[disabled] {
-    background: var(--body-ligth);
-    color: var(--background-ligth);
+  background: var(--body-ligth);
+  color: var(--background-ligth);
 
-    border: 1px solid var(--body-ligth);
+  border: 1px solid var(--body-ligth);
 
-    cursor: not-allowed;
+  cursor: not-allowed;
 }
 
 button:hover:not(:disabled) {
-    background: var(--primary600);
-    color: var(--background-ligth);
+  background: var(--primary600);
+  color: var(--background-ligth);
 
-    border: 1px solid var(--primary600);
+  border: 1px solid var(--primary600);
 }
 
 button:active:not(:disabled) {
-    background: var(--primary700);
-    color: var(--background-ligth);
-    
-    border: 1px solid var(--primary700);
+  background: var(--primary700);
+  color: var(--background-ligth);
+
+  border: 1px solid var(--primary700);
 }

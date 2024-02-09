@@ -1,41 +1,41 @@
 #RedesSociales {
-    width: 100%;
-    height: 28px;
+  width: 100%;
+  height: 28px;
 
-    display: flex;
-    justify-content: center;
-    gap: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
 }
 
 #RedesSociales a {
-    width: 28px;
-    height: 28px;
+  width: 28px;
+  height: 28px;
 
-    background: var(--secondary-ligth);
-    color: var(--background-ligth);
+  background: var(--secondary-ligth);
+  color: var(--background-ligth);
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
 }
 
 #RedesSociales a,
 #RedesSociales a path,
 #RedesSociales a svg {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #FacebookIcon:hover {
-    background: var(--facebook);
+  background: var(--facebook);
 }
 #InstagramIcon:hover {
-    background: var(--instagram);
+  background: var(--instagram);
 }
 #LinkedInIcon:hover {
-    background: var(--linkedin);
+  background: var(--linkedin);
 }
-#TwitterIcon:hover {
-    background: var(--twitter);
+#GithubIcon:hover {
+  background: var(--twitter);
 }

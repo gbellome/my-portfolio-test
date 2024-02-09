@@ -9,10 +9,10 @@ const BotonNavegacion = ({ active, caption, route }) => {
   return (
     <Link
       to={`/${route}`}
-      className={active ? 'active' : ''}
       onClick={scrollToTop}
+      className={active ? 'active' : ''}
     >
-      {caption}
+      <li>{caption}</li>
     </Link>
   )
 }

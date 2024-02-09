@@ -21,6 +21,7 @@
   --primary800: #003d5c;
   --primary700: #005c89;
   --primary600: #007ab7;
+  --primary500: #1e77bc;
   --primary400: #33adea;
   --primary300: #66c2ef;
   --primary200: #99d6f5;
@@ -133,7 +134,8 @@ h3 {
   padding: 1rem 4rem;
 }
 
-h4 {
+h4,
+.h4 {
   font-style: normal;
   font-size: 16px;
   font-weight: 500;
@@ -148,7 +150,8 @@ h4 {
   width: fit-content !important;
 }
 
-h4::after {
+h4::after,
+.h4::after {
   content: '';
 
   display: inline-block;
@@ -175,6 +178,10 @@ p {
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 @media screen and (max-width: 769px) {
