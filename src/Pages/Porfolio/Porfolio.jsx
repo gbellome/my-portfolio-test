@@ -1,5 +1,62 @@
-import React from 'react'
-import { FaHourglassHalf } from 'react-icons/fa'
+import './Styles/PorfolioStyles.css'
+import Proyecto from './Components/Proyecto'
+
+const listadoProyectos = [
+  {
+    tipo: 'React',
+    titulo: 'Login con Firebase',
+    descripcion:
+      'Diseño funcional desarrollado en React, Firebase, Bootstrap, Vite y StyledComponents',
+    link: 'https://test-login-tau.vercel.app/',
+    previsualizacion:
+      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_3LxFnfdGygsEcqyQCfVKcKovrCUY%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_AfVvM8WR28aoua7B36V4SY7UEYch',
+  },
+  {
+    tipo: 'React',
+    titulo: 'Login con Firebase',
+    descripcion:
+      'Diseño funcional desarrollado en React, Firebase, Bootstrap, Vite y StyledComponents',
+    link: 'https://test-login-tau.vercel.app/',
+    previsualizacion:
+      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_3LxFnfdGygsEcqyQCfVKcKovrCUY%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_AfVvM8WR28aoua7B36V4SY7UEYch',
+  },
+  {
+    tipo: 'React',
+    titulo: 'Login con Firebase',
+    descripcion:
+      'Diseño funcional desarrollado en React, Firebase, Bootstrap, Vite y StyledComponents',
+    link: 'https://test-login-tau.vercel.app/',
+    previsualizacion:
+      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_3LxFnfdGygsEcqyQCfVKcKovrCUY%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_AfVvM8WR28aoua7B36V4SY7UEYch',
+  },
+  {
+    tipo: 'React',
+    titulo: 'Login con Firebase',
+    descripcion:
+      'Diseño funcional desarrollado en React, Firebase, Bootstrap, Vite y StyledComponents',
+    link: 'https://test-login-tau.vercel.app/',
+    previsualizacion:
+      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_3LxFnfdGygsEcqyQCfVKcKovrCUY%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_AfVvM8WR28aoua7B36V4SY7UEYch',
+  },
+  {
+    tipo: 'React',
+    titulo: 'Login con Firebase',
+    descripcion:
+      'Diseño funcional desarrollado en React, Firebase, Bootstrap, Vite y StyledComponents',
+    link: 'https://test-login-tau.vercel.app/',
+    previsualizacion:
+      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_3LxFnfdGygsEcqyQCfVKcKovrCUY%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_AfVvM8WR28aoua7B36V4SY7UEYch',
+  },
+  {
+    tipo: 'React',
+    titulo: 'Login con Firebase',
+    descripcion:
+      'Diseño funcional desarrollado en React, Firebase, Bootstrap, Vite y StyledComponents',
+    link: 'https://test-login-tau.vercel.app/',
+    previsualizacion:
+      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_3LxFnfdGygsEcqyQCfVKcKovrCUY%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_AfVvM8WR28aoua7B36V4SY7UEYch',
+  },
+]
 
 const Porfolio = () => {
   return (
@@ -17,20 +74,20 @@ const Porfolio = () => {
         </div>
       </div>
       <div className="row">
-        <div
-          className="col-12"
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '1rem',
-            justifyContent: 'center',
-            alignItems: 'center',
-            padding: '5rem',
-            boxSizing: 'border-box',
-          }}
-        >
-          <p>Sitio en construcción</p>
-          <FaHourglassHalf />
+        <div className="galeria col-12">
+          {listadoProyectos.map(
+            ({ tipo, titulo, descripcion, link, previsualizacion }, index) => (
+              <Proyecto
+                tipo={tipo}
+                titulo={titulo}
+                descripcion={descripcion}
+                link={link}
+                previsualizacion={previsualizacion}
+                index={index}
+                key={index}
+              />
+            )
+          )}
         </div>
       </div>
     </>
