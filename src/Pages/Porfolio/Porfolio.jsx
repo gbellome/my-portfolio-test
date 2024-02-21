@@ -13,48 +13,11 @@ const listadoProyectos = [
   },
   {
     tipo: 'React',
-    titulo: 'Login con Firebase',
-    descripcion:
-      'Diseño funcional desarrollado en React, Firebase, Bootstrap, Vite y StyledComponents',
-    link: 'https://test-login-tau.vercel.app/',
+    titulo: 'Landing Pege',
+    descripcion: 'Diseño propio desarrollado en React, Vite y StyledComponents',
+    link: 'https://landing-page-travels.vercel.app/',
     previsualizacion:
-      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_3LxFnfdGygsEcqyQCfVKcKovrCUY%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_AfVvM8WR28aoua7B36V4SY7UEYch',
-  },
-  {
-    tipo: 'React',
-    titulo: 'Login con Firebase',
-    descripcion:
-      'Diseño funcional desarrollado en React, Firebase, Bootstrap, Vite y StyledComponents',
-    link: 'https://test-login-tau.vercel.app/',
-    previsualizacion:
-      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_3LxFnfdGygsEcqyQCfVKcKovrCUY%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_AfVvM8WR28aoua7B36V4SY7UEYch',
-  },
-  {
-    tipo: 'React',
-    titulo: 'Login con Firebase',
-    descripcion:
-      'Diseño funcional desarrollado en React, Firebase, Bootstrap, Vite y StyledComponents',
-    link: 'https://test-login-tau.vercel.app/',
-    previsualizacion:
-      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_3LxFnfdGygsEcqyQCfVKcKovrCUY%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_AfVvM8WR28aoua7B36V4SY7UEYch',
-  },
-  {
-    tipo: 'React',
-    titulo: 'Login con Firebase',
-    descripcion:
-      'Diseño funcional desarrollado en React, Firebase, Bootstrap, Vite y StyledComponents',
-    link: 'https://test-login-tau.vercel.app/',
-    previsualizacion:
-      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_3LxFnfdGygsEcqyQCfVKcKovrCUY%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_AfVvM8WR28aoua7B36V4SY7UEYch',
-  },
-  {
-    tipo: 'React',
-    titulo: 'Login con Firebase',
-    descripcion:
-      'Diseño funcional desarrollado en React, Firebase, Bootstrap, Vite y StyledComponents',
-    link: 'https://test-login-tau.vercel.app/',
-    previsualizacion:
-      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_3LxFnfdGygsEcqyQCfVKcKovrCUY%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_AfVvM8WR28aoua7B36V4SY7UEYch',
+      'https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_26QEfxZm5j4CHhRUgs9Rz4HzbdvW%26teamId%3Dgabriel-bellomes-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_G2aNXvGC44AQCYPZRk1jKgVyz7bz',
   },
 ]
 
